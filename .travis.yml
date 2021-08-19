@@ -9,3 +9,4 @@ deploy:
   provider: heroku
   api_key: $HEROKU_TOKEN
   app: book-store-client
+  skip_cleanup: true
